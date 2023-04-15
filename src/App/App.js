@@ -3,6 +3,8 @@ import { Routes, Route } from "react-router-dom"
 import Home from "../Home/Home"
 import Form from "../Form/Form"
 import Graphs from "../Graphs/Graphs"
+import AdminHomepage from "../AdminHomepage/AdminHomepage"
+import ReportEditor from "../ReportEditor/ReportEditor"
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
         <Route path="/" element={ <Home/> } />
         <Route path="form" element={ <Form/> } />
         <Route path="form/graphs" element={ <Graphs/> } />
+        <Route path="adminhomepage" element={ <AdminHomepage/> } />
+        <Route path="reporteditor" element={ <ReportEditor/> } />
       </Routes>
     </div>
   );

@@ -61,6 +61,12 @@ const Graphs = () => {
       <div>
         <h1>TE$T</h1>
         <canvas ref={chartRef} width="800" height="280"></canvas>
+        <Link to="form">
+            <button type="submit">Submit A Report</button>
+        </Link>
+        <Link to="adminhomepage">
+            <button>My Dashboard</button>
+        </Link>
       </div>
     );
   };
