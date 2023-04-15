@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from "react-router-dom"
 
 const Form = () => {
   const [formData, setFormData] = useState({
@@ -63,7 +64,9 @@ const Form = () => {
         />
       </label>
       <br />
-      <button type="submit">Submit</button>
+      <Link to="graphs">
+        <button type="submit">Submit and view Graphs</button>
+      </Link>
     </form>
   );
 };
