@@ -64,7 +64,7 @@ const Form = () => {
         />
       </label>
       <br />
-      <Link to="graphs">
+      <Link to="/graphs">
         <button type="submit">Submit and view Graphs</button>
       </Link>
     </form>
