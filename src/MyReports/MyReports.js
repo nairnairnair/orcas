@@ -6,14 +6,14 @@ const MyReports = () => {
             <h1>My Reports</h1>
             <h2>Report #1</h2>
             <h3>Role</h3>
-            <p>Agency:</p>
-            <p>Title:</p>
-            <p>Role:</p>
-            <p>Tasks:</p>
+            <p>Agency: The Agency</p>
+            <p>Title: Agent</p>
+            <p>Role: Agency Agent</p>
+            <p>Tasks: Operations</p>
             <h3>Costs</h3>
-            <p>Travel:</p>
-            <p>Courier:</p>
-            <p>Hours:</p>
+            <p>Travel: $80</p>
+            <p>Courier: $50</p>
+            <p>Hours: 18</p>
             <Link to="/reporteditor">
             <button>Edit</button>
             </Link>
