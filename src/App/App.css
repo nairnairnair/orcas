@@ -13,6 +13,27 @@
   }
 }
 
+.app-login {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+  height: 200px;
+  justify-content: space-evenly;
+}
+
+.app-login input {
+  width: 30%;
+}
+
+.app-login-btn {
+  background-color: black;
+  color: white;
+  padding: 0.5em;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+}
+
 .App-header {
   background-color: #d9d9d9;
   min-height: 250px;

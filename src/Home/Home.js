@@ -23,22 +23,30 @@ const Home = () => {
 
   return (
     <div>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="app-login">
         <label>
-          Username:
-          <input type="text" value={username} onChange={handleUsernameChange} />
+          <input
+            type="text"
+            placeholder="Work Email..."
+            value={username}
+            onChange={handleUsernameChange}
+          />
         </label>
         <label>
-          Password:
           <input
             type="password"
             value={password}
+            placeholder="Password..."
             onChange={handlePasswordChange}
           />
         </label>
         <Link to="/adminhomepage">
-          <button type="submit" disabled={submitDisabled}>
-            Submit
+          <button
+            type="submit"
+            disabled={submitDisabled}
+            className="app-login-btn"
+          >
+            Login
           </button>
         </Link>
       </form>
