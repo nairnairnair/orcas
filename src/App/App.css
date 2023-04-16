@@ -131,3 +131,15 @@
     transform: rotate(360deg);
   }
 }
+
+.homepage {
+  text-align: left;
+}
+
+.homepage h1 {
+  font-size: 3rem; 
+}
+
+.homepage h2 {
+  font-size: 2rem; 
+}
