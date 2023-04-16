@@ -7,6 +7,7 @@ import PrimaryRoleChart from "./primary-role-chart";
 
 const Graphs = () => {  
     return (
+      <section>
       <div>
         <Link to="/">
           <button>Log Out</button>
@@ -52,7 +53,7 @@ const Graphs = () => {
           <h3 className="respTotal listTop">Total: 3384</h3>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
