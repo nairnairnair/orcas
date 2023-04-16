@@ -23,6 +23,12 @@ const Home = () => {
 
   return (
     <div>
+      <div className="home-logo">
+        <img src="orca.svg" alt="orca" />
+        <h1>O.R.C.A</h1>
+        <h3>Outbreak Response and Cost Analysis (ORCA) tool</h3>
+        <span>Colorado Integrated food safety center of excellence</span>
+      </div>
       <form onSubmit={handleSubmit} className="app-login">
         <label>
           <input
@@ -48,6 +54,9 @@ const Home = () => {
           >
             Login
           </button>
+        </Link>
+        <Link to="/adminhomepage">
+          <button className="guest-login-btn">Continue as Guest</button>
         </Link>
       </form>
     </div>
