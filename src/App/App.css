@@ -33,28 +33,13 @@
 .graphs {
   display: grid;
   grid-template-columns: repeat(2, 50%);
+  grid-gap: 2rem;
+  padding: 2rem;
 }
 
-.app-login-btn {
-  background-color: black;
-  color: white;
-  padding: 0.5em;
-  width: 30%;
-  border: none;
-  line-height: 2rem;
-  border-radius: 5px;
-  border: 1px black solid;
-}
-
-.guest-login-btn {
-  background-color: white;
-  color: black;
-  padding: 0.5em;
-  width: 30%;
-  border: none;
-  line-height: 2rem;
-  border-radius: 5px;
-  border: 1px lightgrey solid;
+.form-costs {
+  width: 50%;
+  margin: auto;
 }
 
 .App-header {
