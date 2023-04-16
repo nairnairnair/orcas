@@ -5,7 +5,9 @@ const Header = () => {
     <div className="App-header">
       <div className="header-logo">
         <img className="logo" src="orca.svg" alt="orca" />
-        <h2>O.R.C.A</h2>
+        <a href="/">
+          <h2>O.R.C.A</h2>
+        </a>
       </div>
     </div>
   );
