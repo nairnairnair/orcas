@@ -25,8 +25,10 @@ const Home = () => {
     <div>
       <div className="home-logo">
         <img src="orca.svg" alt="orca" />
-        <h1>O.R.C.A</h1>
-        <h3>Outbreak Response and Cost Analysis (ORCA) tool</h3>
+        <h1 class="title is-1">O.R.C.A</h1>
+        <h4 class="title is-4">
+          Outbreak Response and Cost Analysis (ORCA) tool
+        </h4>
         <span>Colorado Integrated food safety center of excellence</span>
       </div>
       <form onSubmit={handleSubmit} className="app-login">

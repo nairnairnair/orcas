@@ -45,7 +45,7 @@ function ImpactChart() {
 
   return (
     <div>
-      <h1>Outbreak Impact</h1>
+      <h3 className="title is-3">Outbreak Impact</h3>
       <canvas id="myChart1" width="800" height="280"></canvas>
 
       <h4>1086 hours unaccounted for or assigned to multiple roles.</h4>

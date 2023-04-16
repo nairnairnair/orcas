@@ -48,7 +48,7 @@ function PrimaryRoleChart() {
 
   return (
     <div>
-      <h1>Primary Role Chart</h1>
+      <h3 className="title is-3">Primary Role Chart</h3>
       <canvas id="myChart2" width="800" height="280"></canvas>
 
       <h4>47335 positions unaccounted for or assigned to multiple roles.</h4>

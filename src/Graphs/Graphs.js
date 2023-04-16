@@ -23,7 +23,7 @@ const Graphs = () => {
         <ImpactChart />
         <PrimaryRoleChart />
         <div>
-          <h2 className="listTop">Individual Costs</h2>
+          <h3 className="listTop title is-3">Individual Costs</h3>
           <ul>
             <li>Agency Leadership/Investigation Team Management - $3847.65</li>
             <li>Communicable Disease Investigator - $208.00</li>
@@ -38,7 +38,7 @@ const Graphs = () => {
         </div>
 
         <div>
-          <h2 className="listTop">Number of Responses by State</h2>
+          <h3 className="listTop title is-3">Number of Responses by State</h3>
           <ul>
             <li>Agency Leadership/Investigation Team Management - 655.4</li>
             <li>Communicable Disease Investigator - 237.2</li>
