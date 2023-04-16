@@ -7,6 +7,7 @@ import PrimaryRoleChart from "./primary-role-chart";
 
 const Graphs = () => {  
     return (
+      <section>
       <div>
         <Link to="/">
           <button>Log Out</button>
@@ -47,12 +48,12 @@ const Graphs = () => {
             <li>Laboratory - 1900</li>
             <li>Roles during Outbreak - 77</li>
             <li>Student Interviewer - 82.7</li>
-            <li>Unaccounted for or assigned to multiple roles - 189.2</li>
+            <li>Unaccounted for or assigned to multiple roles - 189.1</li>
           </ul>
           <h3 className="respTotal listTop">Total: 3384</h3>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
