@@ -25,6 +25,9 @@ const ReportEditor = () => {
 
   return (
   <section>
+    <Link to="/">
+      <button>Log Out</button>
+    </Link>
   <h1>Edit Your Reports</h1>
     <form onSubmit={handleSubmit}>
       <label>
@@ -68,7 +71,7 @@ const ReportEditor = () => {
       </label>
       <br />
       <Link to="/form">
-        <button type="submit">Submit</button>
+        <button type="submit">Update</button>
       </Link>
     </form>
     </section>

@@ -9,6 +9,9 @@ const Graphs = () => {
   
     return (
       <div>
+        <Link to="/">
+          <button>Log Out</button>
+        </Link>
         <Link to="/form">
             <button type="submit">Submit A Report</button>
         </Link>

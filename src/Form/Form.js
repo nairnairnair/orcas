@@ -25,6 +25,9 @@ const Form = () => {
 
   return (
   <section>
+    <Link to="/">
+      <button>Log Out</button>
+    </Link>
     <form onSubmit={handleSubmit}>
       <label>
         Which agency?
