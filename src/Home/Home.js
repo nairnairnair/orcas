@@ -33,7 +33,7 @@ const Home = () => {
             Password:
             <input type="password" value={password} onChange={handlePasswordChange} />
           </label>
-          <Link to="adminhomepage">
+          <Link to="/adminhomepage">
           <button type="submit" disabled={submitDisabled}>Submit</button>
           </Link>
         </form>

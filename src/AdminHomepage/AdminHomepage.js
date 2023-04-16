@@ -10,10 +10,10 @@ const AdminHomepage = () => {
                 </Link>
             </div>
             <div>
-                <Link to="graphs">
+                <Link to="/graphs">
                     <button type="submit">View Data</button>
                 </Link>
-                <Link to="form">
+                <Link to="/form">
                     <button type="submit">Submit A Report</button>
                 </Link>
             </div>
