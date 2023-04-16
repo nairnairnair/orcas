@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom"
+import MyReports from "../MyReports/MyReports"
 
 const Form = () => {
   const [formData, setFormData] = useState({
@@ -23,6 +24,7 @@ const Form = () => {
   };
 
   return (
+  <section>
     <form onSubmit={handleSubmit}>
       <label>
         Which agency?
@@ -68,6 +70,8 @@ const Form = () => {
         <button type="submit">Submit and view Graphs</button>
       </Link>
     </form>
+    <MyReports/>
+    </section>
   );
 };
 
