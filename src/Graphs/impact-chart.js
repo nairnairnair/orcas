@@ -48,7 +48,6 @@ function ImpactChart() {
 
   return (
     <div>
-      <a href="../admin.html">back</a>
       <h1>Outbreak Impact</h1>
       <canvas id="myChart1" width="800" height="280"></canvas>
 
