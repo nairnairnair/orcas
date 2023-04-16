@@ -5,17 +5,17 @@ import { Link } from "react-router-dom";
 import ImpactChart from "./impact-chart";
 import PrimaryRoleChart from "./primary-role-chart";
 
-const Graphs = () => {  
-    return (
-      <section>
-      <div>
+const Graphs = () => {
+  return (
+    <section>
+      <div className="btn-group">
         <Link to="/">
           <button>Log Out</button>
         </Link>
         <Link to="/form">
-            <button type="submit">Submit A Report</button>
+          <button type="submit">Submit A Report</button>
         </Link>
-        <Link to="adminhomepage">
+        <Link to="/adminhomepage">
           <button>My Dashboard</button>
         </Link>
       </div>
