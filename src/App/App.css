@@ -64,7 +64,7 @@
 
 .btn-group {
   display: flex;
-  width: 250px;
+  justify-content: center;
 }
 
 .btn-group button {
@@ -75,6 +75,7 @@
   line-height: 2rem;
   border-radius: 5px;
   border: 1px lightgrey solid;
+  width: 120px;
 }
 
 .header-logo {
