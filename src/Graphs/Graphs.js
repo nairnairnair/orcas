@@ -9,10 +9,10 @@ const Graphs = () => {
   
     return (
       <div>
-        <Link to="form">
+        <Link to="/form">
             <button type="submit">Submit A Report</button>
         </Link>
-        <Link to="adminhomepage">
+        <Link to="/adminhomepage">
             <button>My Dashboard</button>
         </Link>
         <ImpactChart/>

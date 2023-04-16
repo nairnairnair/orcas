@@ -41,7 +41,6 @@ function PrimaryRoleChart() {
 
   return (
     <div>
-      <a href="/">back</a>
       <h1>Primary Role Chart</h1>
       <canvas id="myChart2" width="800" height="280"></canvas>
 
