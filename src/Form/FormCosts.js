@@ -2,12 +2,11 @@ import React, { useState } from 'react';
 import { Link } from "react-router-dom"
 import MyReports from "../MyReports/MyReports"
 
-const Form = () => {
+const FormCosts = () => {
   const [formData, setFormData] = useState({
-    agency: '',
-    jobTitle: '',
-    role: '',
-    tasks: '',
+    travel: '',
+    courier: '',
+    hours: ''
   });
 
   const handleChange = (event) => {
@@ -30,47 +29,36 @@ const Form = () => {
     </Link>
     <form onSubmit={handleSubmit}>
       <label>
-        Which agency?
+        Travel Costs?
         <input
           type="text"
-          name="agency"
-          value={formData.agency}
+          name="travel"
+          value={formData.travel}
           onChange={handleChange}
         />
       </label>
       <br />
       <label>
-        What job title?
+        Courier Costs?
         <input
           type="text"
-          name="jobTitle"
-          value={formData.jobTitle}
+          name="courier"
+          value={formData.courier}
           onChange={handleChange}
         />
       </label>
       <br />
       <label>
-        What role?
+        Hours Worked?
         <input
           type="text"
-          name="role"
-          value={formData.role}
+          name="hours"
+          value={formData.hours}
           onChange={handleChange}
         />
       </label>
-      <br />
-      <label>
-        What tasks?
-        <input
-          type="text"
-          name="tasks"
-          value={formData.tasks}
-          onChange={handleChange}
-        />
-      </label>
-      <br />
-      <Link to="/formcosts">
-        <button type="submit">Add Costs</button>
+      <Link to="/graphs">
+        <button type="submit">Submit and view Graphs</button>
       </Link>
     </form>
     <MyReports/>
@@ -78,4 +66,4 @@ const Form = () => {
   );
 };
 
-export default Form;
+export default FormCosts;

@@ -6,6 +6,7 @@ import Graphs from "../Graphs/Graphs";
 import AdminHomepage from "../AdminHomepage/AdminHomepage";
 import ReportEditor from "../ReportEditor/ReportEditor";
 import Header from "../Header/Header.js";
+import FormCosts from "../Form/FormCosts";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/form" element={<Form />} />
+        <Route path="/formcosts" element={<FormCosts />} />
         <Route path="/graphs" element={<Graphs />} />
         <Route path="/adminhomepage" element={<AdminHomepage />} />
         <Route path="/reporteditor" element={<ReportEditor />} />
