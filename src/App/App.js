@@ -1,4 +1,5 @@
 import "./App.css";
+import "bulma/css/bulma.min.css";
 import { Routes, Route } from "react-router-dom";
 import Home from "../Home/Home";
 import Form from "../Form/Form";

@@ -1,5 +1,4 @@
 .App {
-  text-align: center;
 }
 
 .App-logo {
@@ -13,20 +12,22 @@
   }
 }
 
+.form-input {
+  padding: 2rem;
+  margin: auto;
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+}
+
 .app-login {
+  margin: auto;
   display: flex;
   flex-direction: column;
   height: 275px;
   justify-content: space-evenly;
   margin-top: 50px;
-}
-
-.app-login input {
-  width: 30%;
-  border-radius: 5px;
-  line-height: 2rem;
-  padding: 5px;
-  border: 1px solid lightgrey;
+  width: 50%;
 }
 
 .graphs {
@@ -60,6 +61,8 @@
   background-color: #d9d9d9;
   min-height: 25px;
   color: black;
+  display: flex;
+  justify-content: space-between;
 }
 
 .App-header a {
@@ -137,9 +140,9 @@
 }
 
 .homepage h1 {
-  font-size: 3rem; 
+  font-size: 3rem;
 }
 
 .homepage h2 {
-  font-size: 2rem; 
+  font-size: 2rem;
 }
